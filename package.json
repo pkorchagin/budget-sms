@@ -1,6 +1,6 @@
 {
   "name": "@korchagin/budget-sms",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "BudgetSMS typescript",
   "keywords": [
     "sms",
@@ -8,6 +8,11 @@
     "BudgetSMS",
     "typescript"
   ],
+  "homepage": "https://github.com/pkorchagin/budget-sms",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/pkorchagin/budget-sms.git"
+  },
   "author": "Philip Korchagin <korchagin.philip@gmail.com>",
   "license": "ISC",
   "types": "build/index.d.ts",

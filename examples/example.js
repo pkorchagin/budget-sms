@@ -11,7 +11,7 @@ sms.from(from).to(to);
 Promise.all([
     sms.checkCredit(),
     sms.send(message),
-    // sms.HLR(to),
+    sms.HLR(to),
     sms.pullDLR(smsid),
 ])
     .then(function (values) {
